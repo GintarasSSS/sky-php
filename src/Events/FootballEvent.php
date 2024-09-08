@@ -2,9 +2,9 @@
 
 namespace SkySportsTechTask\Events;
 
-use SkySportsTechTask\Abstracts\AvailableEvenAbstract;
+use SkySportsTechTask\Abstracts\AvailableEventAbstract;
 
-class FootballEvent extends AvailableEvenAbstract
+class FootballEvent extends AvailableEventAbstract
 {
     protected string $sport = 'football';
 

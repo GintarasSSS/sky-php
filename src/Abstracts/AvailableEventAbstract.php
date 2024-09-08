@@ -4,7 +4,7 @@ namespace SkySportsTechTask\Abstracts;
 
 use SkySportsTechTask\Interfaces\AvailableEventInterface;
 
-class AvailableEvenAbstract implements AvailableEventInterface
+class AvailableEventAbstract implements AvailableEventInterface
 {
     protected string $sport;
     protected array $types;
