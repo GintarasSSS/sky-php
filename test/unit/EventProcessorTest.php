@@ -8,8 +8,6 @@ use SkySportsTechTask\Events\FootballEvent;
 
 class EventProcessorTest extends TestCase
 {
-    const PREFIX = 'test_';
-
     private $storageMock;
     private $eventMock;
     private EventProcessor $eventProcessor;
